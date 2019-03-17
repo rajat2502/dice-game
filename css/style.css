@@ -14,6 +14,20 @@ h2{
   font-size: 2rem;
   color: #4ECCA3;
 }
+#btn{
+  font-family: Courier New;
+  color: #f2e4f2;
+  font-size: 2.2vw;
+  background: #282828	;
+  padding: 4px 20px 8px 20p;
+  text-decoration: none;
+  width: 320px;
+  height: 45px;
+  border: none;
+}
+#btn:hover{
+  background: #3a6885;
+}
 .flex-container{
   display: flex;
   flex-wrap: wrap;

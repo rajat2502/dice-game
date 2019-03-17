@@ -1,6 +1,9 @@
 
-var rn1= Math.floor((Math.random() * 6) + 1);
-var rn2= Math.floor((Math.random() * 6) + 1);
+
+function myfunc(){
+
+rn1= Math.floor((Math.random() * 6) + 1);
+rn2= Math.floor((Math.random() * 6) + 1);
 
 var rimagesrc1="images/"+"dice"+rn1+".png";
 var rimagesrc2="images/"+"dice"+rn2+".png";
@@ -20,3 +23,4 @@ var rimagesrc2="images/"+"dice"+rn2+".png";
   {
    document.querySelector("h1").innerHTML="Draw";
   }
+}
